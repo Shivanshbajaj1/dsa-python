@@ -1,16 +1,5 @@
-# 03. Stacks & Queues
+# Queues
 
-## Stack — LIFO (Last In, First Out)
-
-Think: a stack of plates. You add/remove from the top only.
-
-| Operation | Complexity |
-|---|---|
-| push (add to top) | O(1) |
-| pop (remove from top) | O(1) |
-| peek (look at top) | O(1) |
-
-Used for: undo/redo, function call stacks, expression evaluation, DFS, matching brackets.
 
 ## Queue — FIFO (First In, First Out)
 
@@ -27,6 +16,4 @@ Used for: BFS, task scheduling, buffering/streaming data.
 > `list.pop(0)` is O(n). Use `collections.deque` for queues instead.
 
 ## Files
-
-- `01_stack.py` — stack implementation + balanced-brackets checker
 - `02_queue.py` — queue implementation + a simple task scheduler example
